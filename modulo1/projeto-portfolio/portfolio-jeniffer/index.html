@@ -11,11 +11,11 @@
 
 		<!--Inicio Header--> 
 		<header>
-			<nav>
+			<nav id="menu-portfolio">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#descricao-pessoal">Descrição Pessoal</a></li>
-					<li><a href="#lugares-trabalhei">Lugares Trabalhei</a></li>
+					<li><a href="#lugares-trabalhei">Lugares que Trabalhei</a></li>
 					<li><a href="#galeria-projetos">Galeria de Projetos</a></li>
 					<li><a href="#lista-habilidades">Lista de Habilidades</a></li>
 					<li><a href="#formulario">Formulário</a></li>
@@ -28,10 +28,10 @@
 		<section id="descricao-pessoal">
 			<header>
 				<h2>Descricao Pessoal</h2>
-				<p>texto</p>
+				<p> Meu nome é Jeniffer, tenho 26 anos,  nasci em Balneário Camboriú, Santa Catarina, e sou formada em Direito pela Universidade Do Vale do Itajaí. Gosto bastante de tecnologia, por isso  estou empolgada em  iniciar minha carreira como desenvolvedora web. Ademais,  gosto de viver de uma forma leve e descontraída, deste modo, sou bem extrovertida com pessoas que já tenho intimidade, porém, super tímida com pessoas desconhecidas. Por fim, gosto bastante de sair, viajar, conhecer lugares novos, vivenciar culturas diferentes, acredito que essas experiências fazem eu evoluir muito como ser humano.         </p>
 			</header>
 			<aside>
-				<img src="imagem-pessoal.jpg" alt="Imagem">
+				<img class="descricao-pessoal-imagem" src="imagem-pessoal.jpg" alt="Imagem">
 			</aside>
 		</section>
 		<!--Fim Inicio Descrição Pessoal--> 
@@ -39,12 +39,12 @@
 		<!--Inicio Lugares Trabalhei--> 
 		<section id="lugares-trabalhei">
 			<header>
-				<h2>Lista lugares trabalhei</h2>
+				<h2>Lista de  lugares que  trabalhei</h2>
 			</header>
 			<ol>
+				<li>Prefeitura Municipal de Balneário Camboriú</li>
+				<li>Borchardt Advogados Associados</li>
 				<li>Labenu</li>
-				<li>Labenu2</li>
-				<li>Labenu3</li>
 			</ol>
 		</section>
 		<!--Fim Lugares Trabalhei--> 
@@ -54,17 +54,17 @@
 			<ul class="slider">
 				<li>
 					<a href="galeria-projetos/projeto1.html">
-						<img src="galeria-projetos/imagens-galeria-projeto/projeto1.jpg" /> 
+						<img src="galeria-projetos/imagens-galeria-projeto/projeto1.jpg" style="max-width: 30vw" /> 
 					</a>
 				</li>
 				<li>
 					<a href="galeria-projetos/projeto2.html">
-						<img src="galeria-projetos/imagens-galeria-projeto/projeto2.jpg" />
+						<img src="galeria-projetos/imagens-galeria-projeto/projeto2.jpg" style="max-width: 30vw" />
 					</a>
 				</li>
 				<li>
 					<a href="galeria-projetos/projeto3.html">
-						<img src="galeria-projetos/imagens-galeria-projeto/projeto3.jpg" />
+						<img src="galeria-projetos/imagens-galeria-projeto/projeto3.jpg" style="max-width: 30vw" />
 					</a>
 				</li>
 			</ul>
@@ -78,25 +78,18 @@
 			</header>
 			<ol>
 				<li>
-					<h1>Comunicação</h1>
-					<p>texto</p>
+					<h1>Criatividade</h1>
+					<p>Gosto bastante de criar, imaginar, aprimorar as técnicas e desenvolver novas.</p>
 				</li>
 				<li>
 					<h1>Persistência</h1>
-					<p>texto</p>
+					<p>Sou muito persistente, podem surgir muitas dificuldades e obstáculos, mas eu não desisto das coisas que me proponho a fazer</p>
 				</li>
 				<li>
-					<h1>Desenvolvimento em Html</h1>
-					<p>texto</p>
+					<h1>Analisar processos</h1>
+					<p>Desenvolvi uma capacidade de analisar processos jurídicos, criando novas teses e  buscando melhorias na metodologia do trabalho.  </p>
 				</li>
-				<li>
-					<h1>Desenvolvimento em Javascript</h1>
-					<p>texto</p>
-				</li>
-				<li>
-					<h1>Desenvolvimento em CSS</h1>
-					<p>texto</p>
-				</li>
+				
 			</ol>
 		</section>
 		<!--Fim Lista Habilidades--> 
@@ -125,7 +118,7 @@
 	</body>
 
 	<!--Inicio Footer--> 
-	<footer>
+	<footer id="footer">
 		<a href="http://www.facebook.com">Facebook</a>
 		<a href="http://www.facebook.com">Instagram</a>
 	</footer>
