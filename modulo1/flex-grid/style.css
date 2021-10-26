@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#home-site {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+
+header {
+    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+    height: 70 px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+main {
+    display:flex;
+    //background-color: black;
+    flex-grow:1;
+    border: 1px solid black; 
+}
+
+footer {
+    background-color:hotpink;
+}
+
+
+  
+
+ 
