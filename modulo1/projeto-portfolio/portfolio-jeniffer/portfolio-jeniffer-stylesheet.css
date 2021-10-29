@@ -1,0 +1,63 @@
+/* INICIO CSS MENU */
+#menu-portfolio ul li {
+    display: inline;
+}
+
+#menu-portfolio {
+    background-color: rgb(248, 82, 146);
+    text-align: center;
+}
+
+#menu-portfolio ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-portfolio ul li a {
+    color: rgb(250, 244, 244);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+}
+
+#menu-portfolio ul li a:hover {
+    background-color: rgb(248, 82, 146);
+}
+/* FIM CSS MENU */
+
+#descricao-pessoal {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+}
+
+.descricao-pessoal-imagem {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-height: 100p;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    width: 50%;
+    max-width:200px;
+    max-height:400px;
+}
+
+#galeria-projetos ul li {
+    display: inline-block;
+    background-color: rgb(248, 82, 146);
+}
+
+#lista-habilidades {
+    background-color:rgba(250, 252, 253, 0.644)
+}
+
+#formulario {
+    background-color: rgb(248, 82, 146);
+}
+
+#footer {
+    background-color: rgba(250, 252, 253, 0.644)
+}
